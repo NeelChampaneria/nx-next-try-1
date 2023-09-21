@@ -14,7 +14,13 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@org/lib-t-1": ["libs/lib-t-1/src/index.ts"],
+      "@org/lib-t-1/server": ["libs/lib-t-1/src/server.ts"],
+      "@org/template": ["libs/template/src/index.ts"],
+      "@org/template/server": ["libs/template/src/server.ts"],
+      "@template": ["libs/template/src"],
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
